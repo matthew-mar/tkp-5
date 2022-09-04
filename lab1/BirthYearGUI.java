@@ -1,5 +1,6 @@
+package lab1;
+
 import javax.swing.*;
-import java.awt.*;
 import java.awt.event.*;
 import java.util.Formatter;
 
@@ -10,7 +11,7 @@ public class BirthYearGUI {
     private int age;
 
     BirthYearGUI() {
-        JFrame frame = new JFrame("BirthYear application");
+        JFrame frame = new JFrame("lab1.BirthYear application");
 
         frame.setSize(500, 150);
 
