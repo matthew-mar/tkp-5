@@ -64,6 +64,7 @@ public class Truck extends Auto {
     public String toString() { 
         return "\n\tГрузовик"+"\n\t"+"Фирма:"
             +getFirm()+"\n\t"+"Максимальная скорость: "
+            +getNumber() + " "
             +getMaxSpeed()+ "\n\t"+"Модель: "+model+"\n\t"+"Мощность: "+power+"\n\t"+"Признак прицепа: " 
             +trailer+"\n";
     }

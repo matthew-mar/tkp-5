@@ -44,6 +44,6 @@ public class Car extends Auto{  // файл Car.java
     }
 
     public String toString() { 
-        return getFirm()+""+getMaxSpeed()+" "+model+" "+numDoors+" "+fullTime;
+        return getFirm()+""+getMaxSpeed()+" "+getNumber()+" "+model+" "+numDoors+" "+fullTime;
     }
 }
